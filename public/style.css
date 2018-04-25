@@ -10,12 +10,17 @@ body {
 
 #main {
   align-items: center;
-  width: 100%;
+  overflow: auto;
 }
 
 #nav {
   width: 100%;
   background-color: #ffffff;
+}
+
+#app {
+  max-width: 648px;
+  overflow: auto;
 }
 
 .top {
@@ -30,11 +35,16 @@ body {
   background-image: url(https://source.unsplash.com/1400x600/?space);
 }
 
+.container {
+  overflow: auto;
+}
+
 .detailscontainer {
   display: flex;
   align-content: space-around;
   margin-left: auto;
   margin-right: auto;
+  max-width: 1100px;
 }
 
 .item {
@@ -43,5 +53,5 @@ body {
 
 .title {
   font-size: 20px;
-  margin: 10px;
+  margin: 10px 0px 10px 0px;
 }
