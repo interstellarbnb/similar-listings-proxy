@@ -18,7 +18,7 @@ body {
   background-color: #ffffff;
 }
 
-#app {
+#review {
   max-width: 648px;
   overflow: auto;
 }
@@ -26,13 +26,13 @@ body {
 .top {
   display: block;
   width: 100%;
-  min-height: 500px;
+  min-height: 600px;
   max-height: 702px;
   overflow: hidden;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(https://source.unsplash.com/1400x600/?space);
+  background-image: url(https://s3-us-west-1.amazonaws.com/similarlistings/Asgard.png);
 }
 
 .container {
